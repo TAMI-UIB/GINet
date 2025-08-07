@@ -11,7 +11,7 @@ This repository contains the implementation and additional resources for the upc
 ---
 
 ## 📄 Abstract
-We propose a deep learning-based method for fusing Sentinel-2 (S2) hyperspectral (20m) and multispectral (10m) data. Our approach introduces a novel cluster-based procedure to generate guiding images that encode the geometric information from the 10m bands. These guiding images are used within a back-projection unfolding architecture that incorporates their spatial detail and exploits image self-similarities. The model is evaluated on three diverse test sets encompassing urban, rural, and coastal regions. Experimental results demonstrate that our method consistently outperforms both classical and deep learning-based super-resolution and fusion techniques, including those specifically designed for S2 data.
+The Sentinel-2 mission provides multispectral imagery with 13 bands at resolutions of 10m, 20m, and 60m. In particular, the 10m bands offer fine structural detail, while the 20m bands capture richer spectral information. In this paper, we propose a geometry-guided super-resolution model for fusing the 10m and 20m bands. Our approach introduces a cluster-based learning procedure to generate a geometry-rich guiding image from the 10m bands. This image is integrated into an unfolded back-projection architecture that leverages image self-similarities through a multi-head attention mechanism, which models nonlocal patch-based interactions across spatial and spectral dimensions. We also generate a dataset for evaluation, comprising three testing sets that include urban, rural, and coastal landscapes. Experimental results demonstrate that our method outperforms both classical and deep learning-based super-resolution and fusion techniques.
 
 <!--
 ---
