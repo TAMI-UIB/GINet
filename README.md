@@ -77,6 +77,7 @@ Run the following command:
 ## 🏗️ To-do's:
 - Test script
 - Upload definitve checkpoints
+- Add dataset download link
 
 <!--
 ---
