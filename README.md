@@ -1,8 +1,8 @@
 # GINet: Guided Image Network for Sentinel-2 Super-Resolution
 
-<!--[![arXiv](https://img.shields.io/badge/arXiv-2409.02675-B31B1B.svg)](https://arxiv.org/abs/2409.02675)-->
+[![arXiv](https://img.shields.io/badge/arXiv-2409.02675-B31B1B.svg)](https://arxiv.org/abs/2508.04729)
 
-This repository contains the implementation and additional resources for the upcoming paper:
+This repository contains the implementation and additional resources for the following paper:
 
 **Super-Resolution of Sentinel-2 Images Using a Geometry-Guided Back-Projection Network with Self-Attention**  
 *Ivan Pereira-Sánchez, Francesc Alcover, Bartomeu Garau, Daniel Torres, Julia Navarro, Catalina Sbert, Joan Duran*  
