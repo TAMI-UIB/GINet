@@ -67,17 +67,21 @@ To begin, create an .env file in the project root directory and define the `DATA
 The DataModule is built specifically for Sentinel-2 satellite imagery. Functions to read the Sentinel-2 bands as well as a function to generate a PAN-like band are provided.
 
 ---
-## Train
+## 🚂 Train
 
 Run the following command:
    ```bash
    python train.py 
    ```
 ---
+## 🗃️ Dataset
+
+The dataset used in our article can be downloaded from [Zenodo](https://zenodo.org/records/17735252).
+
+---
 ## 🏗️ To-do's:
 - Test script
 - Upload definitve checkpoints
-- Add dataset download link
 
 <!--
 ---
